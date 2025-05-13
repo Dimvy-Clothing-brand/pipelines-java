@@ -1,3 +1,5 @@
+[![Deploy Jekyll with GitHub Pages dependencies preinstalled](https://github.com/Dimvy-Clothing-brand/pipelines-java/actions/workflows/jekyll-gh-pages.yml/badge.svg)](https://github.com/Dimvy-Clothing-brand/pipelines-java/actions/workflows/jekyll-gh-pages.yml)
+
 # Pipelines Java
 
 Welcome to the **Pipelines Java** project repository! This project is part of the Dimvy Clothing Brand's efforts to streamline and automate processes using Java-based pipelines.
