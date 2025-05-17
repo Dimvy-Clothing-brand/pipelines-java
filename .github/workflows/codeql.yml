@@ -17,7 +17,11 @@ on:
   pull_request:
     branches: [ "main" ]
   schedule:
+main
     - cron: '30 13 * * 5'
+=======
+    - cron: '24 4 * * 5'
+main
 
 jobs:
   analyze:
@@ -43,8 +47,11 @@ jobs:
       fail-fast: false
       matrix:
         include:
+main
         - language: actions
           build-mode: none
+=======
+main
         - language: java-kotlin
           build-mode: none # This mode only analyzes Java. Set this to 'autobuild' or 'manual' to analyze Kotlin too.
         # CodeQL supports the following values keywords for 'language': 'actions', 'c-cpp', 'csharp', 'go', 'java-kotlin', 'javascript-typescript', 'python', 'ruby', 'swift'
